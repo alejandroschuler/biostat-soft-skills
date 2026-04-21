@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Biostat Journals Field Guide"
+  description: "A field guide to statistics and biostatistics journals for students in semiparametric statistics, causal inference, and targeted learning."
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    background: light
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: prestige.qmd
+        text: What makes a journal prestigious
+      - text: "Tier list"
+        menu:
+          - href: s-tier.qmd
+            text: "S tier — flagships"
+          - href: a-tier.qmd
+            text: "A tier — core homes"
+          - href: b-tier.qmd
+            text: "B tier — strong & audience-specific"
+          - href: c-tier.qmd
+            text: "C tier — niche / applied"
+      - href: ml-conferences.qmd
+        text: ML conferences
+      - href: strategy.qmd
+        text: Strategy & practice
+  page-footer:
+    center: "Compiled for UC Berkeley Biostatistics & CTML. Treat tier lists as opinions, not facts."
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    number-sections: false
+    smooth-scroll: true
+    fig-align: center
+    link-external-newwindow: true
+
+execute:
+  echo: false
+  warning: false

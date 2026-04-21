@@ -1,0 +1,40 @@
+---
+title: "Machine learning conferences"
+---
+
+ML conferences are full peer-reviewed venues in computer science culture, and a growing fraction of causal-ML and semiparametric-ML methodology appears there first (or only). Understanding how to navigate them is essential for early-career researchers in this area.
+
+## Overall landscape
+
+**NeurIPS** (Neural Information Processing Systems) — The largest ML conference. Submission deadline typically mid-May, decisions in September, conference in December. Acceptance rate ~25%. Strong in theory, methodology, and applications. A *Spotlight* or *Oral* designation is a significant additional signal.
+
+**ICML** (International Conference on Machine Learning) — Comparable in stature to NeurIPS. Submission typically late January, decisions in May, conference in July. Acceptance rate ~25%.
+
+**AISTATS** (Artificial Intelligence and Statistics) — The most statistics-friendly of the major ML venues. Submission typically October, decisions in January. Smaller than NeurIPS/ICML, often the natural home for theoretical causal-ML and statistical learning theory work. Accepted papers appear in PMLR (Proceedings of Machine Learning Research).
+
+**ICLR** (International Conference on Learning Representations) — Deep learning focused but increasingly broad. Known for open review (reviews are public).
+
+**UAI** (Uncertainty in Artificial Intelligence) — Historically the home for graphical models and probabilistic inference. A traditional home for Pearl-tradition causal inference work.
+
+**COLT** (Conference on Learning Theory) — Pure theoretical ML. The analog of AoS for statistical learning theory. Highly selective.
+
+**CLeaR** (Causal Learning and Reasoning) — Newer dedicated venue for causal inference in ML. Growing rapidly; editorial board overlaps with the causal-ML community.
+
+## How conferences compare to journals
+
+```{=html}
+<div class="callout-note-custom">
+<strong>Key cultural differences:</strong>
+<ul>
+<li><strong>Fixed deadlines:</strong> You submit on a specific date or wait 6–12 months for the next cycle. This creates strong pressure toward a particular cadence of work.</li>
+<li><strong>Short papers:</strong> 8–10 pages main body, with appendix. This favors a specific style of presentation — one clean result, not a comprehensive treatment.</li>
+<li><strong>Fast review:</strong> Decisions in 2–4 months from submission, not 6–12.</li>
+<li><strong>Camera-ready is public:</strong> No R&R rounds in the journal sense. Your paper is on arXiv before submission and published as-is (modulo minor revisions) if accepted.</li>
+<li><strong>Reviewer quality is variable:</strong> Large submission volume means less expert reviewer assignment than at top journals. A paper genuinely appreciated by experts can be rejected because it landed with the wrong reviewers.</li>
+</ul>
+</div>
+```
+
+**Strategic use:** Many researchers in causal ML submit first to NeurIPS/ICML/AISTATS (for the speed and visibility), then submit an expanded journal version (JMLR, JRSS-B, Biometrika depending on fit) with additional theory or experiments. This is widely accepted in ML; journals like JMLR explicitly permit it if there is meaningful expansion.
+
+**Important caveat for the stats job market:** Some classical statistics departments weight conference papers less than journal papers in tenure cases. This is changing, but at places where most senior faculty trained in a pre-ML era, you may need both.

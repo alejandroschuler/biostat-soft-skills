@@ -1,0 +1,84 @@
+---
+title: "Strategy & practice"
+---
+
+# Strategic considerations
+
+## Choosing where to submit
+
+A rough decision procedure, adapted to our subfield:
+
+1. **Is the primary contribution a theorem?** Aim AoS / JRSS-B / Biometrika / COLT / JMLR (theory track).
+2. **Is the primary contribution a methodology with theoretical grounding?** Biometrika / JRSS-B / JASA T&M / Biometrics / Biostatistics / IJB / J. Econometrics / JMLR / AISTATS.
+3. **Is the primary contribution a substantive applied result with methodological development?** JASA A&CS / AoAS / Epidemiology / Biometrics.
+4. **Is the primary contribution a conceptual or identification argument?** Epidemiology / J. Causal Inference / Observational Studies.
+5. **Does the paper speak to clinical trials / regulatory / pharma?** Statistics in Medicine / Pharmaceutical Statistics / Biometrics.
+6. **Is the paper about algorithms for causal estimation in complex data?** NeurIPS / ICML / AISTATS / CLeaR, then JMLR expansion.
+
+## R&R strategy
+
+Most papers at good venues go through at least one R&R. Some notes:
+
+- **Take the R&R seriously.** A genuinely responsive revision with a well-written response letter often turns a borderline paper into an acceptance.
+- **Don't underestimate the response letter.** It is sometimes read more carefully than the revised paper.
+- **Rejections are not terminal.** A paper rejected from JRSS-B often lands at Biometrika or JASA T&M with the reviewers' comments addressed. Many canonical papers in our field were rejected multiple times before finding a home.
+
+## The preprint norm
+
+In our subfield, **arXiv (stat.ME, stat.ML, stat.TH) is the default** — posting a preprint at submission is standard. This applies to journal submissions and is required for most ML conferences. Your advisor's preference rules here, but expect to post.
+
+## Special issues
+
+Special issues are often an underappreciated opportunity, especially for early-career researchers:
+
+- **Editorial board oversight is similar to regular issues** for the top journals
+- **Acceptance rates are sometimes higher** because the guest editors actively solicit
+- **Turnaround can be faster** due to hard deadlines
+- **Visibility can be higher** because special issues are promoted and read as a set
+
+Worth checking the calls-for-papers pages of *Biometrics*, *Biostatistics*, *JRSS-B*, *Stats in Medicine*, and the ML journals annually.
+
+## Reading vs. submitting
+
+Some venues are primarily "reading venues" — places where you keep up with the field even if you rarely submit there. For CTML students:
+
+- **Statistical Science** — read the review articles carefully; they often define how the field understands its own subfields
+- **Annals of Statistics** — read the theoretical foundations of whatever you're working on, even if your own contributions target more methodological venues
+- **Epidemiology** — read the conceptual papers to understand how methodology translates to substantive practice
+- **NeurIPS/ICML causal sessions** — keep up with ongoing developments; even if you don't submit, the field is moving fast
+
+---
+
+# Further practical guidance
+
+## Timing and the tenure clock
+
+A six-year tenure case at an R1 biostatistics department typically requires **10–20 published papers** with the candidate as first or senior author, including **several in A-tier or better venues**, plus **external funding** and **citation evidence**. Concretely, placements at IJB, Biometrics, Biostatistics, JASA, and JRSS-B count, with the exact expectations varying by institution. Ask your chair and senior colleagues.
+
+**Practical implication:** Plan for paper pipelines that can tolerate 1–2 R&R cycles per paper. If you have one paper and it is stuck in R&R limbo, you are exposed. If you have five papers at various stages, you are safe.
+
+## Co-authorship norms
+
+In biostatistics methodology, first-author papers dominate for junior researchers. Advisor typically appears as last author. For collaborative applied work, author order and position become more complicated and should be discussed explicitly with collaborators *before* submission — ideally before the work starts.
+
+## Reviewing as a learning practice
+
+**Volunteering to review (or co-reviewing with your advisor) is one of the most valuable ways to understand what makes a paper succeed or fail.** Ask your advisor to forward you a review they've agreed to take on. Compare your draft review with theirs afterwards.
+
+Many journals in our field are actively trying to broaden their reviewer pool; once you have a publication or two, you can be suggested as a reviewer via ScholarOne profiles.
+
+## Mentorship
+
+No tier list substitutes for the judgment of a good advisor or senior mentor. **Before submitting any paper, have at least one senior person in the field who is not a co-author read a draft.** They will often see gaps and framing issues that you and your co-authors have become blind to.
+
+---
+
+# Acknowledgments and caveats
+
+This document reflects the conventional wisdom of biostatistics and causal inference researchers as of 2026. Tier lists are opinions, not facts. Journal landscapes evolve — *Journal of Causal Inference* barely existed a decade ago; IJB was viewed differently before its open-access period stabilized; CLeaR and TMLR (Transactions on Machine Learning Research, not covered here but worth tracking) are new enough that their standing is still being established.
+
+Treat this as a starting point. Disagree with it. Talk to your advisor. Update it as the field changes.
+
+---
+
+*For corrections, additions, or disagreements, contact the author or open an issue on the shared repository.*

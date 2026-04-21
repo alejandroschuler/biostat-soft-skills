@@ -1,0 +1,45 @@
+---
+title: "What actually makes a journal prestigious"
+---
+
+Before diving into specific journals, it helps to be explicit about what is *actually* being measured when we say one journal is "better" than another. In statistics and biostatistics, prestige is a composite of several dimensions that often pull in different directions.
+
+## Editorial selectivity and review culture
+
+The single most important factor is **who reviews the paper and how seriously they take the job**. At *Annals of Statistics*, a submission is typically read closely by an associate editor who is a recognized expert, and sent to two or three reviewers who are also experts — the review process is slow but genuinely substantive, and theorem statements are scrutinized line by line. At a mid-tier generalist journal, a reviewer may be more of a "customer check" than a peer evaluator, and papers with serious technical errors slip through with some frequency.
+
+A useful heuristic: **ask your advisor or a senior student what they expect when they referee for journal X.** If the answer is "I give it a weekend and check the main result," that is a different venue than one where they spend a month.
+
+## Editorial board
+
+The masthead matters. A journal whose associate editors include the people *defining* the subfield (think: editors who write the field's review articles) will attract better papers and enforce higher standards. This is why *International Journal of Biostatistics* punches above its impact factor in targeted learning — the editorial lineage is directly tied to the theorists who built the framework.
+
+When evaluating a venue, read the current editorial board page and ask: *do I see the names I would cite in this paper?*
+
+## Historical record of influential papers
+
+Prestige accretes slowly. A journal with a canon — papers that are taught in graduate courses 20 years later — carries a kind of gravitational pull. *Biometrika* has published foundational work from Fisher's ANOVA formulations through Cox's proportional hazards model through modern semiparametric theory. That history means a paper published there now is implicitly placed in that lineage.
+
+A practical consequence: venues with deep canons tend to be conservative about novelty but generous about depth. Venues without deep canons often invert that.
+
+## Citation metrics
+
+Impact factor, h-index, and CiteScore are the metrics most visible to non-specialists (deans, promotion committees outside your field, grant reviewers). They are **imperfect proxies**, especially in statistics where:
+
+- Methods papers often accumulate citations slowly over decades rather than in the 2-year impact factor window
+- Biostatistics journals benefit from citations from medicine and public health, which inflates IF relative to pure stats venues
+- Review articles and software papers can dominate a journal's IF without reflecting typical submission standards
+
+Concretely: *Statistics in Medicine* has a higher impact factor than *Biometrika*, but no one serious in our field thinks it is the more prestigious venue. *JMLR* has a lower impact factor than it deserves given the centrality of papers it publishes.
+
+**The rule of thumb**: within-subfield reputation dominates bibliometrics for evaluating methodological work. But bibliometrics matter more for evaluators outside the subfield, which is relevant for grants, promotion, and translational collaborations.
+
+## Acceptance rates and turnaround time
+
+Top theory journals (AoS, JRSS-B, Biometrika) typically have acceptance rates in the 10–15% range and first-round decision times of 4–8 months. Mid-tier methods journals are more like 20–30% and 3–5 months. Conference venues (NeurIPS, ICML) operate on fixed ~4-month cycles with sharply enforced deadlines.
+
+Turnaround time matters enormously for the tenure clock. Three serial R&Rs at *JRSS-B* can consume two years of a six-year tenure window — a real cost that needs to be weighed against the signaling value of the acceptance.
+
+## Audience reach
+
+The right question is not "what is the most prestigious venue this paper could land in?" but **"where will the readers who should cite this paper actually find it?"** A methods paper about policy learning for Medi-Cal will reach a very different audience in *Biostatistics* versus *Health Services Research* versus *Epidemiology* versus *Journal of the American Statistical Association*. For translational work and health-policy impact, reach can matter more than prestige tier.

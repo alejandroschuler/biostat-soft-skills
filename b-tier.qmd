@@ -1,0 +1,77 @@
+---
+title: "B tier — strong and relevant, often audience-specific"
+---
+
+## Annals of Applied Statistics (AoAS)
+
+**What it is:** The applied counterpart to *Annals of Statistics*, published by IMS.
+
+**Focus:** Substantive applied statistics with methodological contribution. The distinguishing editorial culture: papers here typically tell the story of an interesting real problem and the method developed for it.
+
+**Caveat:** AoAS is genuinely excellent but sometimes undervalued on CVs because "Annals of Applied" sounds less prestigious than "Annals of." Within the field it carries significant weight.
+
+## American Journal of Epidemiology
+
+**What it is:** The other flagship epidemiology journal (alongside *Epidemiology*).
+
+**Focus:** Broader than *Epidemiology* — publishes applied epidemiology alongside methodology. For methodological papers, placement is similar.
+
+## Statistical Science
+
+**What it is:** IMS-published review and perspectives journal.
+
+**Focus:** Review articles, methodological perspectives, interviews with prominent statisticians. Papers are typically invited or heavily shepherded.
+
+**Why B rather than higher:** It is not a standard submission venue — you usually don't submit cold to *Statistical Science* and expect acceptance. But the papers it publishes are often agenda-setting (think: canonical review articles that define what a subfield is). For our purposes, it is a **reading venue** as much as a submission target.
+
+## Statistics in Medicine
+
+**What it is:** Wiley-published applied biostatistics journal. High volume, high impact factor.
+
+**Focus:** Methodology and applications for medical research. Clinical trials methodology, survival analysis, longitudinal data, epidemiological methods.
+
+**Tension:** Higher IF than most A-tier journals; lower methodological prestige. It publishes many useful papers but also publishes more papers of lower novelty than A-tier venues. Evaluate the fit for the specific paper, not the IF.
+
+## Bernoulli
+
+**What it is:** Journal of the Bernoulli Society.
+
+**Focus:** Mathematical statistics and probability. Strong on empirical process theory, high-dimensional statistics, and theoretical aspects of learning theory.
+
+**When to target:** Deeply theoretical papers that are probabilistic in flavor and may not fit AoS or JRSS-B's scope.
+
+## JRSS-A (Statistics in Society)
+
+**What it is:** RSS's applied journal, with a policy/social-science focus.
+
+**Relevance for us:** Can be a good home for policy-evaluation work with a public-policy audience, especially when the paper has both methodological substance and policy implications.
+
+## Review of Economics and Statistics
+
+**What it is:** Applied economics journal at the intersection of econometrics and economics.
+
+**Relevance for us:** If your work has a program-evaluation flavor that reaches economists (labor economics, health economics), this can be a better audience than a pure stats venue.
+
+## Observational Studies
+
+**What it is:** Dedicated journal for observational research methodology.
+
+**Focus:** Methodology for observational data, including sensitivity analysis, matching, causal inference in complex settings.
+
+**Why it is notable despite modest size:** Strong editorial board, methodological rigor, and niche specificity. A good home for methodology that is specifically about observational study design.
+
+## Electronic Journal of Statistics (EJS)
+
+**What it is:** Open-access IMS journal.
+
+**Focus:** Theoretical and methodological statistics, similar in scope to AoS/JRSS-B but less selective. Fast turnaround by stats-journal standards.
+
+**Practical note:** Good option when you want a rigorous theoretical paper out quickly and open-access.
+
+## Pharmaceutical Statistics
+
+**What it is:** Journal of the pharmaceutical industry biostatistics community.
+
+**Focus:** Clinical trials methodology, adaptive designs, regulatory statistics, external control arms, estimands (ICH E9 R1), real-world evidence for regulatory submissions.
+
+**When to target:** Papers that engage directly with pharma/regulatory methodology. Strong editorial standards within its niche.

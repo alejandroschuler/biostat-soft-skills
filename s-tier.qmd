@@ -1,0 +1,69 @@
+---
+title: "S tier — field-defining flagships"
+---
+
+These are the "Big Four" of statistics. A publication in any of them is a career event; multiple publications mark you as a serious methodologist. Review processes are long, reviewers are expert, and theorems are scrutinized.
+
+## Annals of Statistics
+
+**What it is:** The theoretical flagship of the Institute of Mathematical Statistics. The most mathematically demanding venue in the field.
+
+**Focus:** Rigorous theoretical statistics. Minimax theory, empirical process theory, high-dimensional statistics, nonparametrics, asymptotic theory, semiparametric efficiency bounds.
+
+**What lands here:** Proofs of optimality, new theoretical frameworks, foundational results. Applications are rare and usually serve to motivate theory.
+
+**Representative work for our field:**
+
+- Kennedy, Balakrishnan & Wasserman (2023), *Semiparametric counterfactual density estimation* — establishing minimax rates for counterfactual density estimation under nonparametric smoothness assumptions
+- Bickel, Klaassen, Ritov & Wellner's lineage of work on efficient estimation in semiparametric models
+- Van der Laan & Dudoit's early TMLE theoretical results
+
+**Implicit editorial signal:** *"Prove something sharp and new."* Papers without a main theorem are rarely competitive.
+
+## Journal of the American Statistical Association — Theory & Methods
+
+**What it is:** The flagship general-interest statistics journal. T&M is the theoretical/methodological section (distinguished from the Applications & Case Studies section, which is A-tier for our purposes but reads differently).
+
+**Focus:** Broader than AoS — welcomes both deeply theoretical work and rigorous methodology papers with strong applied motivation. More willing than AoS to publish papers whose contribution is a new method rather than a new theorem.
+
+**Representative work for our field:**
+
+- Chernozhukov et al. (2018, also *Econometrica*) — the original DML paper
+- Many of the canonical targeted learning papers from the Berkeley group have homes here
+- Robins & Rotnitzky's early semiparametric work on missing data and causal inference
+
+**Implicit editorial signal:** *"A new result that matters, with proof."*
+
+## Journal of the Royal Statistical Society: Series B (Statistical Methodology)
+
+**What it is:** The British analog to JASA T&M, with a slightly more methodological (as opposed to purely theoretical) bent. Historically *the* journal for seminal methodological papers.
+
+**Focus:** High-quality methodology with theoretical grounding. Discussion papers are a unique feature — the editors invite prominent statisticians to comment on selected papers, and the authors respond. A discussion-paper invitation is a significant honor.
+
+**Representative work for our field:**
+
+- Robins, Rotnitzky & Zhao's seminal IPW and doubly-robust papers trace through this journal
+- Many of the target trial emulation methodology papers (Hernán and collaborators)
+- Discussion papers from van der Laan on targeted learning
+
+**Implicit editorial signal:** *"Methodology that will be cited for decades."*
+
+## Biometrika
+
+**What it is:** The oldest of the Big Four (founded 1901 by Karl Pearson, Galton and Weldon). Historically oriented toward biology and medicine but has evolved into a broad-methodology venue.
+
+**Focus:** Elegant methodology, often at the intersection of theory and application. Values clarity, concision, and mathematical polish. Known for shorter papers than AoS or JRSS-B.
+
+**Representative work for our field:**
+
+- Much of the modern causal inference methodology — including many debiased ML and TMLE extensions — has landed here
+- Seminal work in survival analysis, missing data, and longitudinal methods
+- The editorial culture rewards polish: Biometrika papers are often the *cleanest* presentation of a method
+
+**Implicit editorial signal:** *"A beautiful result, beautifully presented."*
+
+```{=html}
+<div class="callout-note-custom">
+<strong>Note on S-tier strategy:</strong> For a PhD student, targeting S-tier on a single-author first paper is ambitious and often unwise. More typical trajectories: publish your first methods paper in an A-tier venue with your advisor, then aim S-tier for work that builds on that foundation. Some advisors in our field prefer the opposite — aim high, absorb the rejection, resubmit downstream. Talk to yours.
+</div>
+```

@@ -1,0 +1,63 @@
+/* Tier list styling */
+.tier-row {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+  align-items: stretch;
+}
+.tier-label {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 500;
+}
+.tier-body {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+.tier-caption {
+  font-size: 11px;
+  color: #666;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.tier-journals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.journal-pill {
+  font-size: 13px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-family: inherit;
+}
+.tier-s-label { background: #F7C1C1; color: #501313; }
+.tier-s-pill  { background: #FCEBEB; color: #501313; }
+.tier-a-label { background: #FAC775; color: #412402; }
+.tier-a-pill  { background: #FAEEDA; color: #412402; }
+.tier-b-label { background: #9FE1CB; color: #04342C; }
+.tier-b-pill  { background: #E1F5EE; color: #04342C; }
+.tier-c-label { background: #CECBF6; color: #26215C; }
+.tier-c-pill  { background: #EEEDFE; color: #26215C; }
+.tier-conf-label { background: #F5C4B3; color: #4A1B0C; }
+.tier-conf-pill  { background: #FAECE7; color: #4A1B0C; }
+
+/* Callouts */
+.callout-note-custom {
+  background: #f7f7f5;
+  border-left: 3px solid #888780;
+  padding: 12px 16px;
+  margin: 16px 0;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Give a bit more breathing room to section headings on tier pages */
+h2 { margin-top: 2.2rem; }

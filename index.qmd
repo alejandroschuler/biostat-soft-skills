@@ -1,0 +1,127 @@
+---
+title: "A Field Guide to Statistics and Biostatistics Journals"
+subtitle: "For students in semiparametric statistics, causal inference, and targeted learning"
+author: "Compiled for UC Berkeley Biostatistics & the Center for Targeted Machine Learning and Causal Inference"
+date: today
+---
+
+# Purpose of this guide
+
+This document is a working map of the journal landscape for students and early-career researchers in biostatistics, causal inference, and semiparametric theory — particularly those affiliated with the UC Berkeley Division of Biostatistics and the Center for Targeted Machine Learning and Causal Inference (CTML). It is meant to help you:
+
+- Decide where to submit a given paper
+- Understand what each venue's editorial culture and audience actually rewards
+- Develop taste for which venues are prestigious within our subfield (which does not always track bibliometrics)
+- Think strategically about the tenure clock, the job market, and the arc of an early career
+
+Tier lists are inherently opinionated. Treat the rankings as a starting point for conversation with your advisor, not as fact. Fit matters more than tier; a well-placed paper at a specialty journal that reaches your actual audience is worth more than a grudgingly accepted paper at a generalist one.
+
+---
+
+# The tier list at a glance
+
+## Main ranking (semiparametrics and causal inference lens)
+
+```{=html}
+<div class="tier-row">
+  <div class="tier-label tier-s-label">S</div>
+  <div class="tier-body">
+    <div class="tier-caption">Where the canon gets written</div>
+    <div class="tier-journals">
+      <span class="journal-pill tier-s-pill">Annals of Statistics</span>
+      <span class="journal-pill tier-s-pill">JASA (T&amp;M)</span>
+      <span class="journal-pill tier-s-pill">JRSS-B</span>
+      <span class="journal-pill tier-s-pill">Biometrika</span>
+    </div>
+  </div>
+</div>
+
+<div class="tier-row">
+  <div class="tier-label tier-a-label">A</div>
+  <div class="tier-body">
+    <div class="tier-caption">Core causal/semiparametric homes</div>
+    <div class="tier-journals">
+      <span class="journal-pill tier-a-pill">Biometrics</span>
+      <span class="journal-pill tier-a-pill">Biostatistics</span>
+      <span class="journal-pill tier-a-pill">JASA (A&amp;CS)</span>
+      <span class="journal-pill tier-a-pill">Epidemiology</span>
+      <span class="journal-pill tier-a-pill">J. Econometrics</span>
+      <span class="journal-pill tier-a-pill">JMLR</span>
+      <span class="journal-pill tier-a-pill">Econometrica</span>
+      <span class="journal-pill tier-a-pill">Int. J. Biostatistics</span>
+      <span class="journal-pill tier-a-pill">J. Causal Inference</span>
+    </div>
+  </div>
+</div>
+
+<div class="tier-row">
+  <div class="tier-label tier-b-label">B</div>
+  <div class="tier-body">
+    <div class="tier-caption">Strong &amp; relevant, often audience-specific</div>
+    <div class="tier-journals">
+      <span class="journal-pill tier-b-pill">AoAS</span>
+      <span class="journal-pill tier-b-pill">Am. J. Epidemiology</span>
+      <span class="journal-pill tier-b-pill">Statistical Science</span>
+      <span class="journal-pill tier-b-pill">Statistics in Medicine</span>
+      <span class="journal-pill tier-b-pill">Bernoulli</span>
+      <span class="journal-pill tier-b-pill">JRSS-A</span>
+      <span class="journal-pill tier-b-pill">Rev. Econ. &amp; Stat.</span>
+      <span class="journal-pill tier-b-pill">Observational Studies</span>
+      <span class="journal-pill tier-b-pill">Electronic J. Stat.</span>
+      <span class="journal-pill tier-b-pill">Pharmaceutical Statistics</span>
+    </div>
+  </div>
+</div>
+
+<div class="tier-row">
+  <div class="tier-label tier-c-label">C</div>
+  <div class="tier-body">
+    <div class="tier-caption">Respectable niche / methods-applied outlets</div>
+    <div class="tier-journals">
+      <span class="journal-pill tier-c-pill">Stat. Methods Med. Res.</span>
+      <span class="journal-pill tier-c-pill">J. Clinical Epidemiology</span>
+      <span class="journal-pill tier-c-pill">Health Services Research</span>
+      <span class="journal-pill tier-c-pill">J. Health Economics</span>
+      <span class="journal-pill tier-c-pill">Lifetime Data Analysis</span>
+      <span class="journal-pill tier-c-pill">Scand. J. Stat.</span>
+      <span class="journal-pill tier-c-pill">Econometric Theory</span>
+      <span class="journal-pill tier-c-pill">CSDA</span>
+      <span class="journal-pill tier-c-pill">JRSS-C</span>
+      <span class="journal-pill tier-c-pill">Biometrical Journal</span>
+    </div>
+  </div>
+</div>
+```
+
+## ML conferences (parallel track)
+
+```{=html}
+<div class="tier-row">
+  <div class="tier-label tier-conf-label">ML</div>
+  <div class="tier-body">
+    <div class="tier-caption">Peer-reviewed venues where much causal-ML work now lives</div>
+    <div class="tier-journals">
+      <span class="journal-pill tier-conf-pill">NeurIPS</span>
+      <span class="journal-pill tier-conf-pill">ICML</span>
+      <span class="journal-pill tier-conf-pill">AISTATS</span>
+      <span class="journal-pill tier-conf-pill">ICLR</span>
+      <span class="journal-pill tier-conf-pill">UAI</span>
+      <span class="journal-pill tier-conf-pill">COLT</span>
+      <span class="journal-pill tier-conf-pill">CLeaR</span>
+    </div>
+  </div>
+</div>
+```
+
+---
+
+## How to read this guide
+
+- [**What makes a journal prestigious**](prestige.qmd) — the dimensions that actually matter when we say one journal is "better" than another
+- **Tier pages** — detailed notes on each venue:
+  - [S tier](s-tier.qmd) — the field-defining flagships
+  - [A tier](a-tier.qmd) — core homes for semiparametric and causal work
+  - [B tier](b-tier.qmd) — strong and relevant, often audience-specific
+  - [C tier](c-tier.qmd) — respectable niche and methods-applied outlets
+- [**ML conferences**](ml-conferences.qmd) — the parallel CS-culture track
+- [**Strategy & practice**](strategy.qmd) — submission strategy, R&R, the tenure clock, mentorship
