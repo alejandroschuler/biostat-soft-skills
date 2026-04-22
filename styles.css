@@ -1,4 +1,4 @@
-/* Tier list styling */
+/* Tier list styling — at-a-glance boxes */
 .tier-row {
   display: grid;
   grid-template-columns: 72px 1fr;
@@ -38,6 +38,8 @@
   border-radius: 8px;
   font-family: inherit;
 }
+
+/* Tier color palette (shared between at-a-glance and tier-list page) */
 .tier-s-label { background: #F7C1C1; color: #501313; }
 .tier-s-pill  { background: #FCEBEB; color: #501313; }
 .tier-a-label { background: #FAC775; color: #412402; }
@@ -49,6 +51,24 @@
 .tier-conf-label { background: #F5C4B3; color: #4A1B0C; }
 .tier-conf-pill  { background: #FAECE7; color: #4A1B0C; }
 
+/* Make tier-label and journal-pill anchors behave like non-link pills */
+a.tier-label,
+a.journal-pill {
+  text-decoration: none;
+  cursor: pointer;
+  transition: filter 0.15s ease, transform 0.15s ease;
+}
+a.tier-label:hover,
+a.journal-pill:hover {
+  text-decoration: none;
+  filter: brightness(0.94);
+  transform: translateY(-1px);
+}
+a.tier-label:visited,
+a.journal-pill:visited {
+  color: inherit;
+}
+
 /* Callouts */
 .callout-note-custom {
   background: #f7f7f5;
@@ -59,5 +79,39 @@
   font-size: 14px;
 }
 
-/* Give a bit more breathing room to section headings on tier pages */
-h2 { margin-top: 2.2rem; }
+/* --- Tier list page color coding --- */
+/* Each tier gets a colored H1 banner + colored left-border on journal H2s. */
+
+.tier-s > h1,
+.tier-a > h1,
+.tier-b > h1,
+.tier-c > h1 {
+  padding: 10px 18px;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+.tier-s > h1 { background: #FCEBEB; color: #501313; border-left: 6px solid #F7C1C1; }
+.tier-a > h1 { background: #FAEEDA; color: #412402; border-left: 6px solid #FAC775; }
+.tier-b > h1 { background: #E1F5EE; color: #04342C; border-left: 6px solid #9FE1CB; }
+.tier-c > h1 { background: #EEEDFE; color: #26215C; border-left: 6px solid #CECBF6; }
+
+.tier-s h2,
+.tier-a h2,
+.tier-b h2,
+.tier-c h2 {
+  padding-left: 12px;
+  margin-top: 2.2rem;
+}
+
+.tier-s h2 { border-left: 5px solid #F7C1C1; }
+.tier-a h2 { border-left: 5px solid #FAC775; }
+.tier-b h2 { border-left: 5px solid #9FE1CB; }
+.tier-c h2 { border-left: 5px solid #CECBF6; }
+
+/* Subtle tint on the "What it is / Focus / When to target / Representative papers" labels */
+.tier-s strong:first-child { color: #501313; }
+.tier-a strong:first-child { color: #412402; }
+.tier-b strong:first-child { color: #04342C; }
+.tier-c strong:first-child { color: #26215C; }

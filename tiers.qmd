@@ -16,11 +16,13 @@ subtitle: "Journals with representative papers"
 
 ---
 
+::: {.tier-s}
+
 # S tier — field-defining flagships {#s-tier}
 
 The "Big Four" of statistics. A publication in any of them is a career event; multiple publications mark you as a serious methodologist. Review processes are long, reviewers are expert, and theorems are scrutinized.
 
-## [Annals of Statistics](https://imstat.org/journals-and-publications/annals-of-statistics/)
+## [Annals of Statistics](https://imstat.org/journals-and-publications/annals-of-statistics/) {#annals-of-statistics}
 
 **What it is:** The theoretical flagship of the Institute of Mathematical Statistics. The most mathematically demanding venue in the field.
 
@@ -34,7 +36,7 @@ The "Big Four" of statistics. A publication in any of them is a career event; mu
 - **[Bickel, Ritov & Tsybakov (2009), *Simultaneous analysis of Lasso and Dantzig selector*](https://doi.org/10.1214/08-AOS620).** Unified oracle inequalities for the two estimators under restricted eigenvalue conditions. A standard reference for anyone proving Lasso-type guarantees.
 - **[Athey, Tibshirani & Wager (2019), *Generalized random forests*](https://doi.org/10.1214/18-AOS1709).** Asymptotic theory for honest forests estimating heterogeneous treatment effects and other local moment parameters — the paper that made causal forests rigorously inferential.
 
-## [Journal of the American Statistical Association — Theory & Methods](https://www.tandfonline.com/journals/uasa20)
+## [Journal of the American Statistical Association — Theory & Methods](https://www.tandfonline.com/journals/uasa20) {#jasa-tm}
 
 **What it is:** The flagship general-interest statistics journal. T&M is the theoretical/methodological section (distinguished from Applications & Case Studies).
 
@@ -48,7 +50,7 @@ The "Big Four" of statistics. A publication in any of them is a career event; mu
 - **[Tan (2006), *A distributional approach for causal inference using propensity scores*](https://doi.org/10.1198/016214506000000023).** Likelihood-based framing of doubly-robust estimation via the propensity score; influential in shaping the efficiency-bound perspective used in TMLE and DML.
 - **[Wager & Athey (2018), *Estimation and inference of heterogeneous treatment effects using random forests*](https://doi.org/10.1080/01621459.2017.1319839).** Gave the first asymptotic normality results for forest-based conditional average treatment effect estimators — a bridge between ML and classical inference.
 
-## [Journal of the Royal Statistical Society: Series B (Statistical Methodology)](https://academic.oup.com/jrsssb)
+## [Journal of the Royal Statistical Society: Series B (Statistical Methodology)](https://academic.oup.com/jrsssb) {#jrss-b}
 
 **What it is:** The British analog to JASA T&M, with a slightly more methodological (as opposed to purely theoretical) bent. Historically *the* journal for seminal methodological papers.
 
@@ -62,7 +64,7 @@ The "Big Four" of statistics. A publication in any of them is a career event; mu
 - **[Benjamini & Hochberg (1995), *Controlling the false discovery rate: a practical and powerful approach to multiple testing*](https://doi.org/10.1111/j.2517-6161.1995.tb02031.x).** Redefined multiple-testing in the genomics era; the BH procedure is now baseline in any high-dimensional hypothesis-testing pipeline.
 - **[Peters, Bühlmann & Meinshausen (2016), *Causal inference by using invariant prediction: identification and confidence intervals*](https://doi.org/10.1111/rssb.12167).** Introduced invariant causal prediction — identifying causal predictors as those whose conditional distribution is invariant across environments.
 
-## [Biometrika](https://academic.oup.com/biomet)
+## [Biometrika](https://academic.oup.com/biomet) {#biometrika}
 
 **What it is:** The oldest of the Big Four (founded 1901 by Karl Pearson, Galton and Weldon). Historically oriented toward biology and medicine but evolved into a broad-methodology venue.
 
@@ -82,13 +84,18 @@ The "Big Four" of statistics. A publication in any of them is a career event; mu
 </div>
 ```
 
+:::
+
+
 ---
+
+::: {.tier-a}
 
 # A tier — core homes for semiparametric and causal work {#a-tier}
 
 These journals are where most of the methodological work in our subfield actually lives. For a CTML-affiliated researcher, you should expect to place many of your career papers here.
 
-## [Biometrics](https://academic.oup.com/biometrics)
+## [Biometrics](https://academic.oup.com/biometrics) {#biometrics}
 
 **What it is:** The flagship journal of the International Biometric Society, published by Oxford University Press. The natural home for biostatistical methodology.
 
@@ -99,10 +106,8 @@ These journals are where most of the methodological work in our subfield actuall
 **Representative papers:**
 
 - **[Zhang, Tsiatis & Davidian (2008), *Improving efficiency of inferences in randomized clinical trials using auxiliary covariates*](https://doi.org/10.1111/j.1541-0420.2007.00976.x).** Semiparametric-efficient covariate adjustment for RCTs — anticipated today's FDA guidance on covariate adjustment in trial analyses.
-- **Tchetgen Tchetgen & Shpitser (various, on mediation).** A running program of work formalizing semiparametric inference for natural direct and indirect effects, including identification under interference and unmeasured mediator-outcome confounding.
-- **Luedtke, Carone & van der Laan (on policy evaluation).** Methodology for estimating optimal dynamic treatment rules and their value — a steady stream of this type of paper lands here.
 
-## [Biostatistics](https://academic.oup.com/biostatistics)
+## [Biostatistics](https://academic.oup.com/biostatistics) {#biostatistics}
 
 **What it is:** The Oxford-published biostatistics journal. Somewhat more theoretical in flavor than *Biometrics*, with a smaller page count.
 
@@ -110,12 +115,7 @@ These journals are where most of the methodological work in our subfield actuall
 
 **When to target:** A strong fit when the methodological contribution leans toward high-dimensional or genomics-flavored biomedical problems. If the paper is more clinical-trial or survival-oriented, *Biometrics* is usually the better first stop.
 
-**Representative papers:**
-
-- **Papers in the longitudinal causal inference line** (Hernán, Robins, Vansteelandt and collaborators): g-methods extensions, time-varying confounding, and censoring-adjustment methodology have a long history here.
-- **High-dimensional semiparametric methods** for genomics and imaging with inferential guarantees — a strong recent vein of the journal's output.
-
-## [JASA Applications & Case Studies](https://www.tandfonline.com/journals/uasa20)
+## [JASA Applications & Case Studies](https://www.tandfonline.com/journals/uasa20) {#jasa-acs}
 
 **What it is:** The Applications & Case Studies (A&CS) section of JASA, published by Taylor & Francis for the American Statistical Association. Different editorial track from the Theory & Methods section.
 
@@ -123,13 +123,7 @@ These journals are where most of the methodological work in our subfield actuall
 
 **When to target:** If the paper's primary contribution is the substantive answer rather than the method, A&CS is the better fit; if the method itself is the contribution, JASA T&M is the natural home. A&CS lands here in A tier because the methodological content it demands is genuinely rigorous.
 
-**Representative papers:**
-
-- **Rosenbaum's *design of observational studies* line.** A series of A&CS papers where a carefully framed observational study is the vehicle for a methodological advance in sensitivity analysis or matching design.
-- **Policy- and program-evaluation case studies** using modern causal machinery (TMLE, DML, synthetic controls) applied to a real dataset with substantive stakes.
-- **Applied Bayesian case studies** where the model and the substantive inference are developed together — Gelman and collaborators publish frequently in this vein.
-
-## [Epidemiology](https://journals.lww.com/epidem/pages/default.aspx)
+## [Epidemiology](https://journals.lww.com/epidem/pages/default.aspx) {#epidemiology}
 
 **What it is:** The flagship methodological epidemiology journal, published by Wolters Kluwer (Lippincott). Short paper format.
 
@@ -143,7 +137,7 @@ These journals are where most of the methodological work in our subfield actuall
 - **[Greenland, Pearl & Robins (1999), *Causal diagrams for epidemiologic research*](https://doi.org/10.1097/00001648-199901000-00008).** Introduced DAGs to epidemiologic methodology and fixed a generation of vocabulary around confounding, colliders, and mediators.
 - **[VanderWeele (2014), *A unification of mediation and interaction: a four-way decomposition*](https://doi.org/10.1097/EDE.0000000000000121).** Clarified how mediation and interaction combine into a single additive decomposition — now the standard framework for mediation analyses in health research.
 
-## [Journal of Econometrics](https://www.sciencedirect.com/journal/journal-of-econometrics)
+## [Journal of Econometrics](https://www.sciencedirect.com/journal/journal-of-econometrics) {#j-econometrics}
 
 **What it is:** The leading econometrics journal, published by Elsevier.
 
@@ -155,9 +149,8 @@ These journals are where most of the methodological work in our subfield actuall
 
 - **[Abadie (2003), *Semiparametric instrumental variable estimation of treatment response models*](https://doi.org/10.1016/S0304-4076(02)00201-4).** A cornerstone paper for estimating local average treatment effects when the instrument satisfies LATE-type assumptions.
 - **[Frölich (2007), *Nonparametric IV estimation of local average treatment effects with covariates*](https://doi.org/10.1016/j.jeconom.2006.07.001).** Extended LATE estimation to settings with high-dimensional covariates — practically relevant for modern program evaluation.
-- **Moment-based semiparametric work** extending Chernozhukov-style debiased ML: a heavy editorial lean toward orthogonal-score estimation lives in this journal.
 
-## [Journal of Machine Learning Research](https://www.jmlr.org/)
+## [Journal of Machine Learning Research](https://www.jmlr.org/) {#jmlr}
 
 **What it is:** Open-access flagship machine learning journal. Peer-reviewed and longer-form than conference papers.
 
@@ -165,13 +158,7 @@ These journals are where most of the methodological work in our subfield actuall
 
 **When to target:** Much of the modern causal-ML literature (heterogeneous treatment effects, policy learning, conformal prediction for causal quantities) lives here, and editorial standards are genuinely high — it is the natural venue for the journal version of conference-first causal-ML work. Caveat: some classical statistics departments still discount ML venues for tenure, though this has shifted substantially in the last decade.
 
-**Representative papers:**
-
-- **Heterogeneous treatment effect estimation** papers (meta-learners, doubly-robust CATE estimation, conformal CATE intervals) — JMLR has become a natural home for the journal versions of this conference-first work.
-- **Policy-learning / off-policy evaluation** papers with formal regret or efficiency guarantees.
-- **Invariance and out-of-distribution generalization** with causal interpretation — a growing vein connecting causal inference and modern ML theory.
-
-## [Econometrica](https://www.econometricsociety.org/publications/econometrica)
+## [Econometrica](https://www.econometricsociety.org/publications/econometrica) {#econometrica}
 
 **What it is:** The top general econometrics/economics theory journal, published by the Econometric Society.
 
@@ -185,7 +172,7 @@ These journals are where most of the methodological work in our subfield actuall
 - **[Hahn (1998), *On the role of the propensity score in efficient semiparametric estimation of average treatment effects*](https://doi.org/10.2307/2998560).** Derived the semiparametric efficiency bound for the ATE — the theoretical foundation that every efficient ATE estimator targets.
 - **[Hirano, Imbens & Ridder (2003), *Efficient estimation of average treatment effects using the estimated propensity score*](https://doi.org/10.1111/1468-0262.00442).** Showed that nonparametrically-estimated propensity scores yield efficient ATE estimators — a result that motivates much of the "estimate the nuisance, plug in" approach to causal inference.
 
-## [International Journal of Biostatistics](https://www.degruyterbrill.com/journal/key/ijb/html)
+## [International Journal of Biostatistics](https://www.degruyterbrill.com/journal/key/ijb/html) {#ijb}
 
 **What it is:** De Gruyter-published biostatistics journal founded with strong Berkeley involvement.
 
@@ -197,9 +184,8 @@ These journals are where most of the methodological work in our subfield actuall
 
 - **[van der Laan & Rubin (2006), *Targeted maximum likelihood learning*](https://doi.org/10.2202/1557-4679.1043).** The paper that introduced TMLE — the canonical reference for the entire framework.
 - **[Gruber & van der Laan (2010), *A targeted maximum likelihood estimator of a causal effect on a bounded continuous outcome*](https://doi.org/10.2202/1557-4679.1260).** Extended TMLE to bounded continuous outcomes via a logistic fluctuation — widely used in applied TMLE analyses.
-- **Collaborative and longitudinal TMLE extensions** (van der Laan, Gruber, Petersen, and collaborators) — the journal publishes much of this methodological development.
 
-## [Journal of Causal Inference](https://www.degruyterbrill.com/journal/key/jci/html)
+## [Journal of Causal Inference](https://www.degruyterbrill.com/journal/key/jci/html) {#j-causal-inference}
 
 **What it is:** De Gruyter-published journal dedicated to causal inference methodology.
 
@@ -207,17 +193,16 @@ These journals are where most of the methodological work in our subfield actuall
 
 **When to target:** The right venue for methodology that is genuinely cross-disciplinary or graphical/identification-flavored and would not find a natural reviewer pool at *Biometrics*, *Journal of Econometrics*, or *Epidemiology*.
 
-**Representative papers:**
+:::
 
-- **Identification-theorem papers** in the Pearl tradition (Shpitser, Bareinboim, Tian) — complete algorithms for identifying causal quantities from graphical assumptions.
-- **Sensitivity-analysis methodology** for unmeasured confounding bridging the Rosenbaum and Robins-Scharfstein traditions.
-- **Longitudinal / dynamic treatment regime methodology** that doesn't fit cleanly in biostatistics or econometrics venues.
 
 ---
 
+::: {.tier-b}
+
 # B tier — strong and relevant, often audience-specific {#b-tier}
 
-## [Annals of Applied Statistics](https://imstat.org/journals-and-publications/annals-of-applied-statistics/)
+## [Annals of Applied Statistics](https://imstat.org/journals-and-publications/annals-of-applied-statistics/) {#aoas}
 
 **What it is:** The applied counterpart to *Annals of Statistics*, published by IMS.
 
@@ -225,13 +210,7 @@ These journals are where most of the methodological work in our subfield actuall
 
 **When to target:** Aim here when you have a serious applied dataset driving a genuine methodological advance. AoAS is genuinely excellent but sometimes undervalued on CVs because "Annals of Applied" sounds less prestigious than "Annals of" — within the field it carries significant weight.
 
-**Representative papers:**
-
-- **Rosenbaum's observational-studies papers** where design choices (matching, sensitivity analysis) are motivated by a substantive dataset and become a methodological contribution.
-- **Spatial/environmental epidemiology methodology** papers that couple a substantive health question with a new statistical model.
-- **Precision-medicine / subgroup-analysis papers** using modern HTE methodology applied to a real clinical cohort.
-
-## [American Journal of Epidemiology](https://academic.oup.com/aje)
+## [American Journal of Epidemiology](https://academic.oup.com/aje) {#aje}
 
 **What it is:** The other flagship epidemiology journal (alongside *Epidemiology*), published by Oxford University Press for the Society for Epidemiologic Research.
 
@@ -243,9 +222,8 @@ These journals are where most of the methodological work in our subfield actuall
 
 - **[Hernán & Robins (2016), *Using big data to emulate a target trial when a randomized trial is not available*](https://doi.org/10.1093/aje/kwv254).** The target-trial framework paper — now the dominant template for observational comparative-effectiveness analyses.
 - **[VanderWeele & Vansteelandt (2010), *Odds ratios for mediation analysis for a dichotomous outcome*](https://doi.org/10.1093/aje/kwq332).** Practical mediation analysis for binary outcomes; widely cited in applied epi.
-- **STROBE and reporting-guideline methodology papers** — AJE has been a major venue for how epi studies should be conducted and written.
 
-## [Statistical Science](https://imstat.org/journals-and-publications/statistical-science/)
+## [Statistical Science](https://imstat.org/journals-and-publications/statistical-science/) {#statistical-science}
 
 **What it is:** IMS-published review and perspectives journal.
 
@@ -257,9 +235,8 @@ These journals are where most of the methodological work in our subfield actuall
 
 - **[Breiman (2001), *Statistical modeling: the two cultures*](https://doi.org/10.1214/ss/1009213726).** The essay that named and framed the "data modeling" vs. "algorithmic modeling" split — still a reference point in every discussion of stats vs. ML culture.
 - **[Kang & Schafer (2007), *Demystifying double robustness: a comparison of alternative strategies for estimating a population mean from incomplete data*](https://doi.org/10.1214/07-STS227).** A clarifying review of DR estimation's practical behavior that shaped how the field teaches and uses these methods.
-- **Invited review articles** defining a subfield's current state — read these before starting a new research direction.
 
-## [Statistics in Medicine](https://onlinelibrary.wiley.com/journal/10970258)
+## [Statistics in Medicine](https://onlinelibrary.wiley.com/journal/10970258) {#stats-in-medicine}
 
 **What it is:** Wiley-published applied biostatistics journal. High volume, high impact factor.
 
@@ -271,9 +248,8 @@ These journals are where most of the methodological work in our subfield actuall
 
 - **[Austin (2009), *Balance diagnostics for comparing the distribution of baseline covariates between treatment groups in propensity-score matched samples*](https://doi.org/10.1002/sim.3697).** The standard applied-statistics reference for how to report balance in a PS-matched analysis.
 - **[Royston & Parmar (2002), *Flexible parametric proportional-hazards and proportional-odds models for censored survival data, with application to prognostic modelling and estimation of treatment effects*](https://doi.org/10.1002/sim.1203).** Introduced the flexible-parametric spline-based survival framework widely used in clinical research today.
-- **Applied RCT methodology papers** on estimand frameworks, missing data handling, and sensitivity analyses — a large editorial appetite for this class of paper.
 
-## [Bernoulli](https://projecteuclid.org/journals/bernoulli)
+## [Bernoulli](https://projecteuclid.org/journals/bernoulli) {#bernoulli}
 
 **What it is:** Journal of the Bernoulli Society for Mathematical Statistics and Probability.
 
@@ -281,13 +257,7 @@ These journals are where most of the methodological work in our subfield actuall
 
 **When to target:** Deeply theoretical papers that are probabilistic in flavor and may not fit AoS or JRSS-B's scope. Choose Bernoulli over EJS when the probabilistic machinery itself is the contribution.
 
-**Representative papers:**
-
-- **Empirical-process and concentration-inequality papers** providing the technical machinery that downstream estimators lean on.
-- **Bayesian nonparametric contraction-rate papers** (Ghosal, van der Vaart and collaborators) — Bernoulli has been a steady venue for this line.
-- **High-dimensional testing theory** with sharp minimax characterizations.
-
-## [JRSS-A (Statistics in Society)](https://academic.oup.com/jrsssa)
+## [JRSS-A (Statistics in Society)](https://academic.oup.com/jrsssa) {#jrss-a}
 
 **What it is:** The Royal Statistical Society's applied journal, with a policy/social-science focus.
 
@@ -295,13 +265,7 @@ These journals are where most of the methodological work in our subfield actuall
 
 **When to target:** Good home for policy-evaluation work with a public-policy audience, especially when the paper has both methodological substance and policy implications. Pick JRSS-A over REStat when the audience you want is statisticians and policy analysts rather than economists.
 
-**Representative papers:**
-
-- **Program-evaluation case studies** (education, welfare, criminal justice) paired with a modest methodological advance.
-- **Social-statistics measurement papers** (inequality indices, mobility) of methodological interest.
-- **Official-statistics methodology** — survey nonresponse, small-area estimation with substantive motivation.
-
-## [Review of Economics and Statistics](https://direct.mit.edu/rest)
+## [Review of Economics and Statistics](https://direct.mit.edu/rest) {#restat}
 
 **What it is:** MIT Press–published applied economics journal at the intersection of econometrics and economics.
 
@@ -312,10 +276,8 @@ These journals are where most of the methodological work in our subfield actuall
 **Representative papers:**
 
 - **[Dehejia & Wahba (2002), *Propensity score-matching methods for nonexperimental causal studies*](https://doi.org/10.1162/003465302317331982).** The paper that popularized PS matching in applied economics and triggered the long LaLonde-replication debate.
-- **Labor-economics program-evaluation papers** using DiD, synthetic control, or IV designs at the methodology/application boundary.
-- **Health-economics empirical papers** with serious econometric engine rooms.
 
-## [Observational Studies](https://muse.jhu.edu/journal/733)
+## [Observational Studies](https://muse.jhu.edu/journal/733) {#observational-studies}
 
 **What it is:** Dedicated journal for observational research methodology.
 
@@ -323,13 +285,7 @@ These journals are where most of the methodological work in our subfield actuall
 
 **When to target:** Sensitivity-analysis and matched-design methodology fits naturally here. It lands in B despite modest size because of its strong editorial board, methodological rigor, and niche specificity — the tradeoff is narrower readership than broader causal venues.
 
-**Representative papers:**
-
-- **Sensitivity-analysis methodology papers** in the Rosenbaum tradition (Γ-sensitivity, amplification, E-values).
-- **Matched-design methodology papers** extending optimal matching to full, near-fine, or cardinality-constrained variants.
-- **Natural-experiment replication and reanalysis** pieces where the methodological contribution is the critique.
-
-## [Electronic Journal of Statistics](https://imstat.org/journals-and-publications/electronic-journal-of-statistics/)
+## [Electronic Journal of Statistics](https://imstat.org/journals-and-publications/electronic-journal-of-statistics/) {#ejs}
 
 **What it is:** Open-access IMS journal.
 
@@ -337,13 +293,7 @@ These journals are where most of the methodological work in our subfield actuall
 
 **When to target:** Good option when you want a rigorous theoretical paper out quickly and open-access. Prefer EJS over Bernoulli when the contribution is statistical methodology rather than probabilistic machinery.
 
-**Representative papers:**
-
-- **High-dimensional regression and testing theory** — a heavy editorial appetite for this class of paper.
-- **Semiparametric-efficient estimation** in specific structured models.
-- **Causal inference theory papers** that don't quite fit the Biometrika/JRSS-B aesthetic but carry rigorous guarantees.
-
-## [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612)
+## [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612) {#pharm-stats}
 
 **What it is:** Wiley-published journal of the pharmaceutical industry biostatistics community.
 
@@ -351,19 +301,18 @@ These journals are where most of the methodological work in our subfield actuall
 
 **When to target:** Papers that engage directly with pharma/regulatory methodology. Pick this over *Statistics in Medicine* when the audience you most want to reach is industry biostatisticians and regulators.
 
-**Representative papers:**
+:::
 
-- **ICH E9(R1) estimand-framework papers** — how to formalize trial objectives under intercurrent events.
-- **Adaptive-design methodology** (sample-size reestimation, seamless phase II/III, basket/umbrella trials) aimed at regulatory acceptance.
-- **External-control and hybrid-trial methodology** — rapidly growing literature on using RWD to augment RCT analyses.
 
 ---
+
+::: {.tier-c}
 
 # C tier — respectable niche and methods-applied outlets {#c-tier}
 
 These are legitimate venues — none should be confused with predatory or low-quality journals. They are here because they are either very specialized, oriented toward application over methodology, or have looser editorial standards than A/B tier.
 
-## [Statistical Methods in Medical Research](https://journals.sagepub.com/home/smm)
+## [Statistical Methods in Medical Research](https://journals.sagepub.com/home/smm) {#smmr}
 
 **What it is:** Sage-published applied biostatistics methodology journal. A long-running outlet for medical-statistics methods aimed at a biomedical readership.
 
@@ -371,12 +320,7 @@ These are legitimate venues — none should be confused with predatory or low-qu
 
 **When to target:** Good home for methods-oriented biomedical papers that are solid but not quite competitive at *Biometrics* or *Statistics in Medicine*. Quality is variable; often a second-choice venue for papers not placed at those flagships.
 
-**Representative papers:**
-
-- **Applied biostatistics methodology tutorials.** Marginal effects, G-computation, and causal mediation in applied settings — the kind of paper that becomes a teaching reference within the discipline.
-- **Meta-analysis and evidence-synthesis methodology.** Papers developing or comparing meta-analytic techniques with concrete medical applications.
-
-## [Journal of Clinical Epidemiology](https://www.sciencedirect.com/journal/journal-of-clinical-epidemiology)
+## [Journal of Clinical Epidemiology](https://www.sciencedirect.com/journal/journal-of-clinical-epidemiology) {#j-clin-epi}
 
 **What it is:** Elsevier-published clinical-epidemiology journal; the official journal of several evidence-based-medicine groups, with a heavy reporting-and-guidelines orientation.
 
@@ -384,13 +328,7 @@ These are legitimate venues — none should be confused with predatory or low-qu
 
 **When to target:** Natural home for papers on how clinical evidence should be produced and reported, rather than frontier methodology. Editorial appetite is strongest for work with direct implications for clinical-research practice.
 
-**Representative papers:**
-
-- **Reporting-guideline papers (STROBE, PRISMA, TRIPOD extensions).** The journal is a primary home for the methodology of how clinical evidence should be reported and appraised.
-- **Risk-prediction model validation methodology.** Calibration, decision curves, and external-validation frameworks for clinical prediction models.
-- **Systematic review methodology.** GRADE extensions and network meta-analysis techniques aimed at the evidence-synthesis community.
-
-## [Health Services Research](https://onlinelibrary.wiley.com/journal/14756773)
+## [Health Services Research](https://onlinelibrary.wiley.com/journal/14756773) {#hsr}
 
 **What it is:** Wiley-published journal of AcademyHealth, the professional society for health-services research. The field's flagship journal.
 
@@ -398,12 +336,7 @@ These are legitimate venues — none should be confused with predatory or low-qu
 
 **When to target:** Best fit when the primary contribution is a substantive health-services finding supported by careful identification or measurement. Audience is primarily health-services researchers rather than methodologists, so methodological novelty alone is not enough.
 
-**Representative papers:**
-
-- **Policy-evaluation papers.** Applications of DiD, IV, or propensity-score approaches to administrative claims data to estimate the effects of health policies or delivery changes.
-- **Access, utilization, and disparities papers.** Empirical work with a quantitative methodology component addressing inequities in care.
-
-## [Journal of Health Economics](https://www.sciencedirect.com/journal/journal-of-health-economics)
+## [Journal of Health Economics](https://www.sciencedirect.com/journal/journal-of-health-economics) {#j-health-econ}
 
 **What it is:** Elsevier-published field journal for health economics. A leading outlet for empirical and theoretical work on health and healthcare markets.
 
@@ -411,13 +344,7 @@ These are legitimate venues — none should be confused with predatory or low-qu
 
 **When to target:** Right audience when the paper has a serious econometric identification strategy and a health-economics substantive question. Methodology-only papers fit poorly; the editorial bar is on economic content as much as on statistical technique.
 
-**Representative papers:**
-
-- **Economic-evaluation methodology.** Cost-effectiveness and value-of-information papers developing or applying methods for healthcare decision analysis.
-- **Instrumental-variable applications.** Studies exploiting policy variation in health financing and delivery to identify causal effects.
-- **Behavioral-economics papers on health decision-making.** Empirical work with substantive econometric content on how individuals make health-related choices.
-
-## [Lifetime Data Analysis](https://link.springer.com/journal/10985)
+## [Lifetime Data Analysis](https://link.springer.com/journal/10985) {#lifetime-data-analysis}
 
 **What it is:** Springer-published specialty journal for survival and time-to-event analysis. A focused technical outlet for the survival-methodology community.
 
@@ -425,13 +352,7 @@ These are legitimate venues — none should be confused with predatory or low-qu
 
 **When to target:** Natural home for genuinely survival-specific methodology that would be treated as narrow at a general biostatistics journal. Readership is small but expert, so technical precision is valued.
 
-**Representative papers:**
-
-- **Competing-risks and multi-state-model methodology.** Extensions of cause-specific and subdistribution hazard models and multi-state process inference.
-- **Semiparametric survival methodology.** Joint longitudinal–survival models, recurrent-event analysis, and frailty modeling.
-- **Methodology for interval-censored and length-biased data.** Inference under complex observation schemes that arise in screening and prevalent-cohort studies.
-
-## [Scandinavian Journal of Statistics](https://onlinelibrary.wiley.com/journal/14679469)
+## [Scandinavian Journal of Statistics](https://onlinelibrary.wiley.com/journal/14679469) {#scand-j-stat}
 
 **What it is:** Wiley-published journal of the Nordic statistics societies. A general mathematical-statistics journal with a long European tradition.
 
@@ -439,12 +360,7 @@ These are legitimate venues — none should be confused with predatory or low-qu
 
 **When to target:** Reasonable venue for rigorous methodology papers that need a theoretically-minded audience but are unlikely to land at Biometrika or JRSS-B. Similar scope to EJS but with lower visibility.
 
-**Representative papers:**
-
-- **General methodology papers.** Contributions with a Nordic empirical-process or likelihood flavor, often with careful asymptotic analysis.
-- **Semiparametric models in biomedical applications.** Rigorous methodological work combining theory with concrete biomedical use cases.
-
-## [Econometric Theory](https://www.cambridge.org/core/journals/econometric-theory)
+## [Econometric Theory](https://www.cambridge.org/core/journals/econometric-theory) {#econometric-theory}
 
 **What it is:** Cambridge-published theoretical econometrics journal. A specialized outlet for the mathematical underpinnings of econometric methods.
 
@@ -452,12 +368,7 @@ These are legitimate venues — none should be confused with predatory or low-qu
 
 **When to target:** Consider when the contribution is a technical asymptotic result rather than a new estimator or application. Audience is theoretical econometricians; biostatistics readers are largely absent.
 
-**Representative papers:**
-
-- **Asymptotic theory for econometric estimators.** Limit theorems for standard estimators under weak regularity or nonstandard conditions.
-- **Higher-order expansions and bootstrap refinements.** Edgeworth-type results and bootstrap theory for standard econometric models.
-
-## [Computational Statistics and Data Analysis](https://www.sciencedirect.com/journal/computational-statistics-and-data-analysis)
+## [Computational Statistics and Data Analysis](https://www.sciencedirect.com/journal/computational-statistics-and-data-analysis) {#csda}
 
 **What it is:** Elsevier-published journal focused on computational statistics and algorithms. A principal outlet for the computational-statistics community.
 
@@ -465,12 +376,7 @@ These are legitimate venues — none should be confused with predatory or low-qu
 
 **When to target:** Good match when the novelty is primarily computational — a new algorithm, a scalability improvement, or a careful empirical evaluation of existing methods. Less suitable for theorem-driven papers without a computational hook.
 
-**Representative papers:**
-
-- **Algorithms for MCMC, EM, and variational inference.** Papers with substantive computational contributions to standard inference machinery.
-- **Scalable methodology for large biomedical or genomic data.** Methods designed to handle the sample sizes and dimensionality of modern biomedical datasets.
-
-## [Journal of the Royal Statistical Society: Series C (Applied Statistics)](https://academic.oup.com/jrsssc)
+## [Journal of the Royal Statistical Society: Series C (Applied Statistics)](https://academic.oup.com/jrsssc) {#jrss-c}
 
 **What it is:** The Royal Statistical Society's applied-statistics journal (now published on Oxford University Press). The applied counterpart within the JRSS family.
 
@@ -478,12 +384,7 @@ These are legitimate venues — none should be confused with predatory or low-qu
 
 **When to target:** Fit for papers where the interest is an applied case study with a modest methodological contribution. Content is heterogeneous in quality; signal is stronger when the application is novel and the method is well-matched.
 
-**Representative papers:**
-
-- **Applied case studies.** Papers spanning environmental statistics, demography, and sports analytics, where methodology serves the substantive question.
-- **Methodology-in-application papers.** Papers where the motivating dataset determines the method rather than the other way around.
-
-## [Biometrical Journal](https://onlinelibrary.wiley.com/journal/15214036)
+## [Biometrical Journal](https://onlinelibrary.wiley.com/journal/15214036) {#biometrical-journal}
 
 **What it is:** Wiley-published general biostatistics journal with a European / German-biometry lineage. A long-standing outlet for biometric methodology.
 
@@ -491,8 +392,5 @@ These are legitimate venues — none should be confused with predatory or low-qu
 
 **When to target:** Reasonable venue for solid biostatistics methodology that does not reach the bar for *Biometrics* or *Biostatistics*. Respectable but lower-visibility than those flagships.
 
-**Representative papers:**
-
-- **Clinical-trials and biomarker methodology.** Papers common to the European biometry community on trial design, analysis, and biomarker-driven inference.
-- **Longitudinal and survival modeling.** Methodological contributions applied to biomedical studies in the journal's traditional scope.
+:::
 

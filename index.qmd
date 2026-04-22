@@ -24,70 +24,70 @@ Tier lists are inherently opinionated. Treat the rankings as a starting point fo
 
 ```{=html}
 <div class="tier-row">
-  <div class="tier-label tier-s-label">S</div>
+  <a class="tier-label tier-s-label" href="tiers.html#s-tier">S</a>
   <div class="tier-body">
     <div class="tier-caption">Where the canon gets written</div>
     <div class="tier-journals">
-      <span class="journal-pill tier-s-pill">Annals of Statistics</span>
-      <span class="journal-pill tier-s-pill">JASA (T&amp;M)</span>
-      <span class="journal-pill tier-s-pill">JRSS-B</span>
-      <span class="journal-pill tier-s-pill">Biometrika</span>
+      <a class="journal-pill tier-s-pill" href="tiers.html#annals-of-statistics">Annals of Statistics</a>
+      <a class="journal-pill tier-s-pill" href="tiers.html#jasa-tm">JASA (T&amp;M)</a>
+      <a class="journal-pill tier-s-pill" href="tiers.html#jrss-b">JRSS-B</a>
+      <a class="journal-pill tier-s-pill" href="tiers.html#biometrika">Biometrika</a>
     </div>
   </div>
 </div>
 
 <div class="tier-row">
-  <div class="tier-label tier-a-label">A</div>
+  <a class="tier-label tier-a-label" href="tiers.html#a-tier">A</a>
   <div class="tier-body">
     <div class="tier-caption">Core causal/semiparametric homes</div>
     <div class="tier-journals">
-      <span class="journal-pill tier-a-pill">Biometrics</span>
-      <span class="journal-pill tier-a-pill">Biostatistics</span>
-      <span class="journal-pill tier-a-pill">JASA (A&amp;CS)</span>
-      <span class="journal-pill tier-a-pill">Epidemiology</span>
-      <span class="journal-pill tier-a-pill">J. Econometrics</span>
-      <span class="journal-pill tier-a-pill">JMLR</span>
-      <span class="journal-pill tier-a-pill">Econometrica</span>
-      <span class="journal-pill tier-a-pill">Int. J. Biostatistics</span>
-      <span class="journal-pill tier-a-pill">J. Causal Inference</span>
+      <a class="journal-pill tier-a-pill" href="tiers.html#biometrics">Biometrics</a>
+      <a class="journal-pill tier-a-pill" href="tiers.html#biostatistics">Biostatistics</a>
+      <a class="journal-pill tier-a-pill" href="tiers.html#jasa-acs">JASA (A&amp;CS)</a>
+      <a class="journal-pill tier-a-pill" href="tiers.html#epidemiology">Epidemiology</a>
+      <a class="journal-pill tier-a-pill" href="tiers.html#j-econometrics">J. Econometrics</a>
+      <a class="journal-pill tier-a-pill" href="tiers.html#jmlr">JMLR</a>
+      <a class="journal-pill tier-a-pill" href="tiers.html#econometrica">Econometrica</a>
+      <a class="journal-pill tier-a-pill" href="tiers.html#ijb">Int. J. Biostatistics</a>
+      <a class="journal-pill tier-a-pill" href="tiers.html#j-causal-inference">J. Causal Inference</a>
     </div>
   </div>
 </div>
 
 <div class="tier-row">
-  <div class="tier-label tier-b-label">B</div>
+  <a class="tier-label tier-b-label" href="tiers.html#b-tier">B</a>
   <div class="tier-body">
     <div class="tier-caption">Strong &amp; relevant, often audience-specific</div>
     <div class="tier-journals">
-      <span class="journal-pill tier-b-pill">AoAS</span>
-      <span class="journal-pill tier-b-pill">Am. J. Epidemiology</span>
-      <span class="journal-pill tier-b-pill">Statistical Science</span>
-      <span class="journal-pill tier-b-pill">Statistics in Medicine</span>
-      <span class="journal-pill tier-b-pill">Bernoulli</span>
-      <span class="journal-pill tier-b-pill">JRSS-A</span>
-      <span class="journal-pill tier-b-pill">Rev. Econ. &amp; Stat.</span>
-      <span class="journal-pill tier-b-pill">Observational Studies</span>
-      <span class="journal-pill tier-b-pill">Electronic J. Stat.</span>
-      <span class="journal-pill tier-b-pill">Pharmaceutical Statistics</span>
+      <a class="journal-pill tier-b-pill" href="tiers.html#aoas">AoAS</a>
+      <a class="journal-pill tier-b-pill" href="tiers.html#aje">Am. J. Epidemiology</a>
+      <a class="journal-pill tier-b-pill" href="tiers.html#statistical-science">Statistical Science</a>
+      <a class="journal-pill tier-b-pill" href="tiers.html#stats-in-medicine">Statistics in Medicine</a>
+      <a class="journal-pill tier-b-pill" href="tiers.html#bernoulli">Bernoulli</a>
+      <a class="journal-pill tier-b-pill" href="tiers.html#jrss-a">JRSS-A</a>
+      <a class="journal-pill tier-b-pill" href="tiers.html#restat">Rev. Econ. &amp; Stat.</a>
+      <a class="journal-pill tier-b-pill" href="tiers.html#observational-studies">Observational Studies</a>
+      <a class="journal-pill tier-b-pill" href="tiers.html#ejs">Electronic J. Stat.</a>
+      <a class="journal-pill tier-b-pill" href="tiers.html#pharm-stats">Pharmaceutical Statistics</a>
     </div>
   </div>
 </div>
 
 <div class="tier-row">
-  <div class="tier-label tier-c-label">C</div>
+  <a class="tier-label tier-c-label" href="tiers.html#c-tier">C</a>
   <div class="tier-body">
     <div class="tier-caption">Respectable niche / methods-applied outlets</div>
     <div class="tier-journals">
-      <span class="journal-pill tier-c-pill">Stat. Methods Med. Res.</span>
-      <span class="journal-pill tier-c-pill">J. Clinical Epidemiology</span>
-      <span class="journal-pill tier-c-pill">Health Services Research</span>
-      <span class="journal-pill tier-c-pill">J. Health Economics</span>
-      <span class="journal-pill tier-c-pill">Lifetime Data Analysis</span>
-      <span class="journal-pill tier-c-pill">Scand. J. Stat.</span>
-      <span class="journal-pill tier-c-pill">Econometric Theory</span>
-      <span class="journal-pill tier-c-pill">CSDA</span>
-      <span class="journal-pill tier-c-pill">JRSS-C</span>
-      <span class="journal-pill tier-c-pill">Biometrical Journal</span>
+      <a class="journal-pill tier-c-pill" href="tiers.html#smmr">Stat. Methods Med. Res.</a>
+      <a class="journal-pill tier-c-pill" href="tiers.html#j-clin-epi">J. Clinical Epidemiology</a>
+      <a class="journal-pill tier-c-pill" href="tiers.html#hsr">Health Services Research</a>
+      <a class="journal-pill tier-c-pill" href="tiers.html#j-health-econ">J. Health Economics</a>
+      <a class="journal-pill tier-c-pill" href="tiers.html#lifetime-data-analysis">Lifetime Data Analysis</a>
+      <a class="journal-pill tier-c-pill" href="tiers.html#scand-j-stat">Scand. J. Stat.</a>
+      <a class="journal-pill tier-c-pill" href="tiers.html#econometric-theory">Econometric Theory</a>
+      <a class="journal-pill tier-c-pill" href="tiers.html#csda">CSDA</a>
+      <a class="journal-pill tier-c-pill" href="tiers.html#jrss-c">JRSS-C</a>
+      <a class="journal-pill tier-c-pill" href="tiers.html#biometrical-journal">Biometrical Journal</a>
     </div>
   </div>
 </div>
@@ -97,17 +97,17 @@ Tier lists are inherently opinionated. Treat the rankings as a starting point fo
 
 ```{=html}
 <div class="tier-row">
-  <div class="tier-label tier-conf-label">ML</div>
+  <a class="tier-label tier-conf-label" href="ml-conferences.html">ML</a>
   <div class="tier-body">
     <div class="tier-caption">Peer-reviewed venues where much causal-ML work now lives</div>
     <div class="tier-journals">
-      <span class="journal-pill tier-conf-pill">NeurIPS</span>
-      <span class="journal-pill tier-conf-pill">ICML</span>
-      <span class="journal-pill tier-conf-pill">AISTATS</span>
-      <span class="journal-pill tier-conf-pill">ICLR</span>
-      <span class="journal-pill tier-conf-pill">UAI</span>
-      <span class="journal-pill tier-conf-pill">COLT</span>
-      <span class="journal-pill tier-conf-pill">CLeaR</span>
+      <a class="journal-pill tier-conf-pill" href="ml-conferences.html">NeurIPS</a>
+      <a class="journal-pill tier-conf-pill" href="ml-conferences.html">ICML</a>
+      <a class="journal-pill tier-conf-pill" href="ml-conferences.html">AISTATS</a>
+      <a class="journal-pill tier-conf-pill" href="ml-conferences.html">ICLR</a>
+      <a class="journal-pill tier-conf-pill" href="ml-conferences.html">UAI</a>
+      <a class="journal-pill tier-conf-pill" href="ml-conferences.html">COLT</a>
+      <a class="journal-pill tier-conf-pill" href="ml-conferences.html">CLeaR</a>
     </div>
   </div>
 </div>
