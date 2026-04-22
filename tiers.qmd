@@ -93,7 +93,7 @@ The "Big Four" of statistics. A publication in any of them is a career event; mu
 
 # A tier — core homes for semiparametric and causal work {#a-tier}
 
-These journals are where most of the methodological work in our subfield actually lives. For a CTML-affiliated researcher, you should expect to place many of your career papers here.
+These journals are where most of the methodological work in our subfield actually lives. Expect to place many of your career papers here.
 
 ## [Biometrics](https://academic.oup.com/biometrics) {#biometrics}
 
@@ -174,11 +174,11 @@ These journals are where most of the methodological work in our subfield actuall
 
 ## [International Journal of Biostatistics](https://www.degruyterbrill.com/journal/key/ijb/html) {#ijb}
 
-**What it is:** De Gruyter-published biostatistics journal founded with strong Berkeley involvement.
+**What it is:** De Gruyter-published biostatistics journal with strong ties to the targeted learning community.
 
 **Focus:** Biostatistics with an emphasis on semiparametric methods, targeted learning, and causal inference. More methodological than clinical-trial focused.
 
-**When to target:** Editorial lineage traces directly through the targeted learning community, and a very high fraction of the TMLE methodology literature has landed here — a natural fit for CTML students. Caveat: its impact factor is modest, which matters for external evaluators, though within the subfield it is a respected venue.
+**When to target:** Editorial lineage traces directly through the targeted learning community, and a very high fraction of the TMLE methodology literature has landed here — a natural fit for targeted-learning work. Caveat: its impact factor is modest, which matters for external evaluators, though within the subfield it is a respected venue.
 
 **Representative papers:**
 

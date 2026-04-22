@@ -40,7 +40,7 @@ Worth checking the calls-for-papers pages of *Biometrics*, *Biostatistics*, *JRS
 
 ## Reading vs. submitting
 
-Some venues are primarily "reading venues" — places where you keep up with the field even if you rarely submit there. For CTML students:
+Some venues are primarily "reading venues" — places where you keep up with the field even if you rarely submit there:
 
 - **Statistical Science** — read the review articles carefully; they often define how the field understands its own subfields
 - **Annals of Statistics** — read the theoretical foundations of whatever you're working on, even if your own contributions target more methodological venues

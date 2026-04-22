@@ -1,13 +1,12 @@
 ---
 title: "A Field Guide to Statistics and Biostatistics Journals"
 subtitle: "For students in semiparametric statistics, causal inference, and targeted learning"
-author: "Compiled for UC Berkeley Biostatistics & the Center for Targeted Machine Learning and Causal Inference"
 date: today
 ---
 
 # Purpose of this guide
 
-This document is a working map of the journal landscape for students and early-career researchers in biostatistics, causal inference, and semiparametric theory — particularly those affiliated with the UC Berkeley Division of Biostatistics and the Center for Targeted Machine Learning and Causal Inference (CTML). It is meant to help you:
+This document is a working map of the journal landscape for students and early-career researchers in biostatistics, causal inference, and semiparametric theory. It is meant to help you:
 
 - Decide where to submit a given paper
 - Understand what each venue's editorial culture and audience actually rewards
