@@ -118,10 +118,10 @@ Tier lists are inherently opinionated. Treat the rankings as a starting point fo
 ## How to read this guide
 
 - [**What makes a journal prestigious**](prestige.qmd) — the dimensions that actually matter when we say one journal is "better" than another
-- **Tier pages** — detailed notes on each venue:
-  - [S tier](s-tier.qmd) — the field-defining flagships
-  - [A tier](a-tier.qmd) — core homes for semiparametric and causal work
-  - [B tier](b-tier.qmd) — strong and relevant, often audience-specific
-  - [C tier](c-tier.qmd) — respectable niche and methods-applied outlets
+- [**The tier list**](tiers.qmd) — detailed notes on every venue, grouped by tier, with 1–3 representative papers each:
+  - [S tier](tiers.qmd#s-tier) — the field-defining flagships
+  - [A tier](tiers.qmd#a-tier) — core homes for semiparametric and causal work
+  - [B tier](tiers.qmd#b-tier) — strong and relevant, often audience-specific
+  - [C tier](tiers.qmd#c-tier) — respectable niche and methods-applied outlets
 - [**ML conferences**](ml-conferences.qmd) — the parallel CS-culture track
 - [**Strategy & practice**](strategy.qmd) — submission strategy, R&R, the tenure clock, mentorship

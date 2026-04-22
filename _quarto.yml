@@ -15,16 +15,8 @@ website:
         text: Home
       - href: prestige.qmd
         text: What makes a journal prestigious
-      - text: "Tier list"
-        menu:
-          - href: s-tier.qmd
-            text: "S tier — flagships"
-          - href: a-tier.qmd
-            text: "A tier — core homes"
-          - href: b-tier.qmd
-            text: "B tier — strong & audience-specific"
-          - href: c-tier.qmd
-            text: "C tier — niche / applied"
+      - href: tiers.qmd
+        text: Tier list
       - href: ml-conferences.qmd
         text: ML conferences
       - href: strategy.qmd
